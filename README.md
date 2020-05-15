@@ -1,6 +1,6 @@
 # MailHarvest
 
-> simple script for mail harvesting
+> simple python based script for mail harvesting
 
 ## Instalation
 
@@ -27,8 +27,9 @@ $ ./main.py
 [+] Example	: ./main.py http://target.com/ list_mail.txt
 ```
 
+
 ## Preview
 
-![preview](https://github.com/relarizky/MailHarvest/blob/master/img/screenshit.png?raw=true)
+![preview](https://asciinema.org/a/x9hPl7H4X7r2tbGDoJmpay252)
 
 
