@@ -1,12 +1,12 @@
 # MailHarvest
 
-> simple python based script for mail harvesting
+> Simple python based script for mail-harvesting
 
 ## Instalation
 
 ```
-$ git clone https://github.com/relarizky/MailHarvest.git
-$ cd MailHarvest
+$ git clone https://github.com/relarizky/mail-harvest
+$ cd mail-harvest
 $ pip3 install -r requirements.txt
 $ mkdir -v saved
 $ chmod +x main.py
