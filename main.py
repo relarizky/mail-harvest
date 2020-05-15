@@ -8,13 +8,13 @@ color = Color()
 
 def output_format(function):
     def banner(*args, **kwargs):
-        print(color.GREEN + ' _____                _ _______ _           _')
-        print(color.GREEN + '|  ___|              (_) |  ___(_)         | |')
-        print(color.GREEN + '| |__ _ __ ___   __ _ _| | |_   _ _ __   __| | ___ _ __')
-        print(color.GREEN + '|  __| \'_ ` _ \ / _` | | |  _| | | \'_ \ / _` |/ _ \ \'__|')
-        print(color.GREEN + '| |__| | | | | | (_| | | | |   | | | | | (_| |  __/ |')
-        print(color.GREEN + '\____/_| |_| |_|\__,_|_|_\_|   |_|_| |_|\__,_|\___|_|')
-        print(color.YELLOW+ '                                      [Version 1.0]\n')
+        print(color.GREEN + '                 _ _ _    _                           _   ')
+        print(color.GREEN + '                (_) | |  | |                         | |  ')
+        print(color.GREEN + ' _ __ ___   __ _ _| | |__| | __ _ _ ____   _____  ___| |_ ')
+        print(color.GREEN + '| \'_ ` _ \ / _\ | | |  __  |/ _` | \'__\ \ / / _ \/ __| __|')
+        print(color.GREEN + '| | | | | | (_| | | | |  | | (_| | |   \ V /  __/\__ \ |_ ')
+        print(color.GREEN + '|_| |_| |_|\__,_|_|_|_|  |_|\__,_|_|    \_/ \___||___/\__|')
+        print(color.YELLOW+ '                                             [Version 1.0]\n')
         function(*args, **kwargs)
     return banner
 
