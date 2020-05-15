@@ -3,9 +3,8 @@
 > Simple python based script for mail-harvesting
 
 ## Instalation
-
 ```
-$ git clone https://github.com/relarizky/mail-harvest
+$ git clone https://github.com/relarizky/mail-harvest.git
 $ cd mail-harvest
 $ pip3 install -r requirements.txt
 $ mkdir -v saved
