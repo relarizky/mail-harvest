@@ -30,6 +30,6 @@ $ ./main.py
 
 ## Preview
 
-<a href='https://asciinema.org/a/x9hPl7H4X7r2tbGDoJmpay252'><img src='https://asciinema.org/a/x9hPl7H4X7r2tbGDoJmpay252.png'></a>
+<a href='https://asciinema.org/a/x9hPl7H4X7r2tbGDoJmpay252' target='_blank'><img src='https://asciinema.org/a/x9hPl7H4X7r2tbGDoJmpay252.png'></a>
 
 
