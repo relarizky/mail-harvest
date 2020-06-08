@@ -1,6 +1,6 @@
 from colorama import *
 
-#init(autoreset = True)
+init(autoreset = True)
 
 class Color():
 
