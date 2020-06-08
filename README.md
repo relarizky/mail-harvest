@@ -12,6 +12,11 @@ $ chmod +x main.py
 $ ./main.py
 ```
 
+[![Build Status](https://travis-ci.com/relarizky/mail-harvest.svg?branch=master)](https://travis-ci.com/relarizky/mail-harvest)
+[![tested on](https://img.shields.io/ubuntu/v/ubuntu-wallpapers/eoan?color=critical&logo=operating%20system)](https://img.shields.io/ubuntu/v/ubuntu-wallpapers/eoan?color=critical&logo=operating%20system)
+[![license](https://img.shields.io/apm/l/vim-mode)](https://img.shields.io/apm/l/vim-mode)
+[![python](https://img.shields.io/badge/python-3.7.5%20%7C%203.8.3-blue)](https://img.shields.io/badge/python-3.7.5%20%7C%203.8.3-blue)
+
 ## Usage
 ```
                  _ _ _    _                           _   
