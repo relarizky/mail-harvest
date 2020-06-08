@@ -9,6 +9,7 @@ install:
 
 before_script:
         - id; uname -a; ls -la
+        - mkdir -v saved
         - chmod +x main.py
 
 script: ./main.py
