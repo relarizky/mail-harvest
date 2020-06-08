@@ -5,7 +5,7 @@ python:
         - 3.8.3
 
 install:
-        - pip install colorama tld requests
+        - pip install -r requirements.txt --upgrade
 
 before_script:
         - mkdir -v saved
