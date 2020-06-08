@@ -1,3 +1,7 @@
-requests
-tld
-colorama
+certifi==2020.4.5.2
+chardet==3.0.4
+colorama==0.4.3
+idna==2.9
+requests==2.23.0
+tld==0.12.2
+urllib3==1.25.9
