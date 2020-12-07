@@ -13,7 +13,7 @@
 ```
 $ git clone https://github.com/relarizky/mail-harvest.git
 $ cd mail-harvest
-$ pip3 install -r requirements.txt
+$ pip3 install requests
 $ mkdir -v saved
 $ chmod +x main.py
 $ ./main.py
@@ -21,23 +21,23 @@ $ ./main.py
 
 ## Usage
 ```
-                 _ _ _    _                           _   
-                (_) | |  | |                         | |  
- _ __ ___   __ _ _| | |__| | __ _ _ ____   _____  ___| |_ 
-| '_ ` _ \ / _\ | | |  __  |/ _` | '__\ \ / / _ \/ __| __|
-| | | | | | (_| | | | |  | | (_| | |   \ V /  __/\__ \ |_ 
-|_| |_| |_|\__,_|_|_|_|  |_|\__,_|_|    \_/ \___||___/\__|
-                                             [Version 1.0]
+ __  __       _ _ _    _                           _
+|  \/  |     (_) | |  | |                         | |
+| \  / | __ _ _| | |__| | __ _ _ ____   _____  ___| |_
+| |\/| |/ _` | | |  __  |/ _` | '__\ \ / / _ \/ __| __|
+| |  | | (_| | | | |  | | (_| | |   \ V /  __/\__ \ |_
+|_|  |_|\__,_|_|_|_|  |_|\__,_|_|    \_/ \___||___/\__|
+                                        [Version 1.0.1]
 
-[+] Usage	: ./main.py <url> <filename>
-[+] Example	: ./main.py http://target.com/ list_mail.txt
+[+] Usage	: ./main.py <url> <thread> <timeout>
+[+] Example	: ./main.py http://target.com 5 15
 ```
 
 ## License
 
-License ![MIT](https://github.com/relarizky/mail-harvest/blob/master/LICENSE)
+License [MIT](https://github.com/relarizky/mail-harvest/blob/master/LICENSE)
 
 ## ChangeLog
 
-All notable changes to this project are documented in ![ChangeLog](https://github.com/relarizky/mail-harvest/blob/master/CHANGELOG.md)
+All notable changes to this project are documented in [ChangeLog](https://github.com/relarizky/mail-harvest/blob/master/CHANGELOG.md)
 
