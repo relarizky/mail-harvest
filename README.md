@@ -33,4 +33,11 @@ $ ./main.py
 [+] Example	: ./main.py http://target.com/ list_mail.txt
 ```
 
+## License
+
+License ![MIT](https://github.com/relarizky/mail-harvest/blob/master/LICENSE)
+
+## ChangeLog
+
+All notable changes to this project are documented in ![ChangeLog](https://github.com/relarizky/mail-harvest/blob/master/CHANGELOG.md)
 
