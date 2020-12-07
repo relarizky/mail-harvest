@@ -43,7 +43,7 @@ from mailharvest.harvester.url import (
 setrecursionlimit(300)
 
 
-done_url = []   # list of url that has been scraped
+done_url = set()   # list of url that has been scraped
 
 
 def validate_url(func: Callable) -> Callable:
@@ -77,10 +77,11 @@ def validate_connection(func: Callable) -> Callable:
 def main(url: str, thread_size: int, timeout: int) -> None:
     """ main function of MailHarvest """
 
-    done_url.append(url)
+    done_url.add(url)
+    print(done_url)
     print(current_time(), f"looking for available url on {url}")
-
     request_text = create_request(url, timeout)
+
     if request_text is False:
         print(
             current_time(),
@@ -131,7 +132,7 @@ def main(url: str, thread_size: int, timeout: int) -> None:
             else:
                 break
     else:
-        next_url = choice(done_url)
+        next_url = choice(list(done_url))
 
     main(next_url, thread_size, timeout)
 
