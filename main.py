@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     if not check_default_dir():
         print(current_time(), f"can't find default dir {DEFAULT_DIR}")
-        exit(1)
+        exit(0)
 
     if argv.__len__() != 4:
         help()
