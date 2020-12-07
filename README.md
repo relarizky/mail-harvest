@@ -2,10 +2,12 @@
 
 > Simple python based script for mail-harvesting
 
-[![Build Status](https://travis-ci.com/relarizky/mail-harvest.svg?branch=master)](https://travis-ci.com/relarizky/mail-harvest)
-[![tested on](https://img.shields.io/ubuntu/v/ubuntu-wallpapers/eoan?color=critical&logo=operating%20system)](https://img.shields.io/ubuntu/v/ubuntu-wallpapers/eoan?color=critical&logo=operating%20system)
-[![license](https://img.shields.io/apm/l/vim-mode)](https://img.shields.io/apm/l/vim-mode)
-[![python](https://img.shields.io/badge/python-3.7.5%20%7C%203.8.3-blue)](https://img.shields.io/badge/python-3.7.5%20%7C%203.8.3-blue)
+![Build Status](https://travis-ci.com/relarizky/mail-harvest.svg?branch=master)
+![tested on](https://img.shields.io/ubuntu/v/ubuntu-wallpapers/eoan?color=critical&logo=operating%20system)
+![license](https://img.shields.io/github/license/relarizky/mail-harvest)
+![python](https://img.shields.io/badge/python-3.7.5%20%7C%203.8.3-blue)
+
+<img src="https://raw.githubusercontent.com/relarizky/mail-harvest/master/screenshot/1.png" height=35% width=40%> <img src="https://raw.githubusercontent.com/relarizky/mail-harvest/master/screenshot/2.png" height=35% width=40%>
 
 ## Instalation
 ```
