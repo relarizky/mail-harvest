@@ -78,7 +78,6 @@ def main(url: str, thread_size: int, timeout: int) -> None:
     """ main function of MailHarvest """
 
     done_url.add(url)
-    print(done_url)
     print(current_time(), f"looking for available url on {url}")
     request_text = create_request(url, timeout)
 
